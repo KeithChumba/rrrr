@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+{#   Start by loading static  #}
+    {% load static %}
+{#   Start of JS connection  #}
+    <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+{#   Start of CSS connection  #}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+<h1 class="text-info text-center">eMobilis Coding School</h1>
+<button class="btn btn-info">Home</button>
+<button class="btn btn-primary">About</button>
+<button class="btn btn-secondary">Gallery</button>
+<button class="btn btn-warning">Register</button>
+<button class="btn btn-danger">Login</button>
+<h3>Principal's Remarks</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium culpa delectus, dicta dolorum earum error eveniet fugit minima modi molestiae molestias, non omnis optio quaerat quas quod totam veniam veritatis!</p>
+</body>
+</html>

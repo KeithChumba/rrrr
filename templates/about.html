@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {#   Start by loading static  #}
+    {% load static %}
+{#   Start of JS connection  #}
+    <script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+{#   Start of CSS connection  #}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+</head>
+<body>
+<h1 class="text-info text-center">About eMobilis</h1>
+<button class="btn btn-info">Home</button>
+<button class="btn btn-primary">About</button>
+<button class="btn btn-secondary">Gallery</button>
+<button class="btn btn-warning">Register</button>
+<button class="btn btn-danger">Login</button>
+<hr>
+<h3>Introduction</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid aut autem consectetur earum ex inventore minima mollitia nobis quasi repellendus saepe similique, sunt ullam unde veritatis voluptates voluptatum.</p>
+</body>
+</html>
